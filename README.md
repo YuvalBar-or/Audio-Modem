@@ -2,6 +2,8 @@
 
 A Python-based audio modem using Frequency-Shift Keying (FSK) to transmit and receive text messages in real time over standard speakers and microphones.
 
+### This project uses https://github.com/sunw4r/audio_modem repo 
+
 ## Features
 
 * **Real-time Tx/Rx** of text via two audio tones
@@ -92,13 +94,5 @@ Listens continuously; prints any decoded messages when the sync header is detect
 
   * Increase `calib_windows` to improve noise-floor estimate.
   * Run in a quieter environment or use a directional microphone.
-
-## Contributing
-
-Contributions, bug reports, and feature requests are welcome!
-
-1. Fork the repo
-2. Create a feature branch
-3. Submit a pull request
 
 
